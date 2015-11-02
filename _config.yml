@@ -1,0 +1,16 @@
+# Site settings
+title: The Income Tax Illustrated
+description: > # this means to ignore newlines until "baseurl:"
+
+meta_image: cover-meta.png
+url: "http://interactive.taxfoundation.org" # the base hostname & protocol for your site
+baseurl: "/income-tax-illustrated"
+permalink: :title
+twitter_username: taxfoundation
+# Setup and configure collection for chartbook slides
+collections:
+  - slides
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
